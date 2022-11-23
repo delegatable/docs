@@ -25,8 +25,8 @@ const delegation = {
   caveats: [
     {
       enforcer: BlockNumberBeforeEnforcer.address,
-      // Transaction must be executed before block.number 0x32, which is 10 in decimal format.
-      terms: '0x0000000000000032',
+      // Transaction must be executed before block.number 0xa, which is 10 in decimal format.
+      terms: '0x000000000000000a',
     },
   ],
 };
