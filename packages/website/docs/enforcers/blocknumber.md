@@ -52,7 +52,7 @@ const delegation = {
       enforcer: BlockNumberEnforcer.address,
       // Transaction must be executed after block.number 10
       terms:
-        '0x0000000000000000000000000000000100000000000000000000000000000032',
+        '0x000000000000000000000000000000010000000000000000000000000000000a',
     },
     {
       enforcer: BlockNumberEnforcer.address,
